@@ -1,0 +1,243 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las 5S Japonesas</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+    background-color: black;
+    color: #D5006D; /* Color morado */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    text-shadow: 0 0 20px #D5006D; /* Letras fosforescentes */
+}
+h2 {
+    color: #FF00FF; /* Letras fosforescentes */
+}
+p {
+    margin: 20px;
+    line-height: 1.6;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    color: #D5006D;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.card {
+    background-color: #4A148C;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+.video-container, .chart-container {
+    margin: 20px;
+}
+img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    color: white;
+}
+th, td {
+    border: 1px solid #D5006D;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #4A148C;
+}
+footer {
+    margin-top: 20px;
+    color: #FF00FF;
+}
+section {
+    display: flex;
+    width: 600px;
+    height: 330;
+}
+section img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover {
+    cursor: crosshair;
+    width: 600px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Las 5S Japonesas</h1>
+        <nav>
+            <a href="#seiri">Seiri</a>
+            <a href="#seiton">Seiton</a>
+            <a href="#seiso">Seiso</a>
+            <a href="#seiketsu">Seiketsu</a>
+            <a href="#shitsuke">Shitsuke</a>
+        </nav>
+
+        <div class="card" id="seiri">
+            <h2>1. Seiri (Clasificar)</h2>
+            <p>Seiri se centra en clasificar y organizar el espacio de trabajo. Este primer paso es fundamental para identificar qué elementos son esenciales y cuáles no.</p>
+            <p><strong>Ejemplo:</strong> En un entorno de oficina, esto puede implicar revisar archivos y documentos, eliminando aquellos que son obsoletos o irrelevantes.</p>
+            <p><strong>Beneficios:</strong></p>
+            
+            <ul>
+                <li>Eliminación de desorden y elementos innecesarios.</li>
+                <li>Aumento de la eficiencia al encontrar rápidamente los elementos necesarios.</li>
+                <li>Mejora del enfoque y la concentración al reducir distracciones.</li>
+            </ul>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxVQhhTRsXlTQ_Io52BAKEIGAy5DNScirTIm22HbitBOk_Gn1zUUVSR6ZxyNpwuybAoZWoPwFyIee3hEJdbV3lpoQSlblVS7w1U-gWTvEXUY4cGb3oE9eJVE0_BmPI0DqiXjE5y7N1fDOl/s1600/puto.png">
+        </div>
+
+        <div class="card" id="seiton">
+            <h2>2. Seiton (Ordenar)</h2>
+            <p>Una vez que se han clasificado los elementos, es crucial organizarlos de manera que sean fáciles de acceder y utilizar.</p>
+            <p><strong>Ejemplo:</strong> En un taller, las herramientas deben estar organizadas y etiquetadas, con un lugar designado para cada una, facilitando su localización.</p>
+            <p><strong>Beneficios:</strong></p>
+            <ul>
+                <li>Reducción del tiempo de búsqueda de herramientas o documentos.</li>
+                <li>Facilitación de la colaboración entre compañeros al tener todo organizado.</li>
+                <li>Incremento de la productividad al reducir tiempos muertos.</li>
+            </ul>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI313D-xaBmg75OcXC1q1Mn_fLDWFmvFDPpBcjXQsf3ydXSeACyn703nKXnZI_hmr6pZf364Z1ExEz8HwR98DWKP4paN66Bsjk6OzMsOJWcjJPl1SR9PlsOq57JYTAP7_nru3sFN5P03J5/s1600/5.jpg">
+        </div>
+
+        <div class="card" id="seiso">
+            <h2>3. Seiso (Limpiar)</h2>
+            <p>Seiso implica mantener el espacio de trabajo limpio y ordenado, lo cual es vital para un entorno de trabajo seguro y eficiente.</p>
+            <p><strong>Ejemplo:</strong> Implementar un calendario de limpieza semanal en la oficina y asegurar que todos participen en el proceso.</p>
+            <p><strong>Beneficios:</strong></p>
+            <ul>
+                <li>Reducción de accidentes laborales y enfermedades.</li>
+                <li>Mejora del ambiente de trabajo, aumentando la moral del equipo.</li>
+                <li>Facilitación de la identificación de problemas o fallas en el equipo.</li>
+            </ul>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgohzCiKiyt2q8bRBx7KuNBcZeb5TeAgbb2vaLArnqSNMithtgMR0ltXVs5vsF60GNe5fDINDJU4DifXrQdYT-f2erPUkl_Sj3cqNZUkJituJTI5lIe8r7OmZcbYCuHoMqbU5AlcZe9sw/s1600/03.+5S+-+Seiso.png">
+        </div>
+
+        <div class="card" id="seiketsu">
+            <h2>4. Seiketsu (Estandarizar)</h2>
+            <p>Se trata de crear normas y procedimientos claros que mantengan la organización y limpieza alcanzadas.</p>
+            <p><strong>Ejemplo:</strong> Crear un manual de procedimientos que detalle cómo mantener la limpieza y el orden en la oficina o el taller.</p>
+            <p><strong>Beneficios:</strong></p>
+            <ul>
+                <li>Asegura que todos los empleados sigan las mismas prácticas de organización y limpieza.</li>
+                <li>Facilita la capacitación de nuevos empleados.</li>
+                <li>Establece un estándar de calidad y eficiencia en el trabajo.</li>
+            </ul>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmmubtth21A85jzBJbINJQjh8JGsHbSD8h0QEJS3zcqLGODEYGGs3Qy15Ifl8QkXTiOq0Tmn8cqCj0QGLkUUM0M9ZZinHB_4r2rHidk4ZWgLrxZzVKf7n6KU0TamhSgXtn1yUEe_LVWori/s1600/seiketsu.png">
+        </div>
+
+        <div class="card" id="shitsuke">
+            <h2>5. Shitsuke (Sostener)</h2>
+            <p>El último paso implica fomentar la disciplina y la cultura de mantener lo logrado mediante las 5S. Es esencial que estas prácticas se conviertan en hábitos.</p>
+            <p><strong>Ejemplo:</strong> Realizar auditorías periódicas para evaluar el cumplimiento de las prácticas de 5S y ofrecer retroalimentación constructiva.</p>
+            <p><strong>Beneficios:</strong></p>
+            <ul>
+                <li>Promoción de un ambiente de trabajo positivo y comprometido.</li>
+                <li>Mejora continua en la eficiencia y productividad a largo plazo.</li>
+                <li>Incorporación de la cultura de mejora continua en la organización.</li>
+            </ul>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigUTLPgvtnQKO78xZduWR4NtzZpgzj38xe-ejUDMMLTMKuLeMHzYNORraJGHTJVqetHqXmzkVFjYDY96VtshcehDG50_tiCewLiQsxQ-9SmH9EvyuODBMDEPB0jWyLm6ciKnBY4sZXg4z7/s320/shitsuke.png">
+        </div>
+        <h2>Imágenes de las 5S</h2>
+        <section>
+            <img src="https://iso4docs.com/wp-content/uploads/2022/09/iso4-5s-1.jpg" alt="5S 1">
+            <img src="https://wp-website.safetyculture.com/wp-content/uploads/sites/3/2023/12/Principios-5S.png" alt="5S 2">
+            <img src="https://www.infobae.com/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-wordpress-client-uploads%2Finfobae-wp%2Fwp-content%2Fuploads%2F2017%2F07%2F26182028%2F5s.jpg?auth=585d5c87ff55f2c0ec07843fa9aa1b1bdde71c57df5a14e7633c521cbfb84554&smart=true&width=1200&height=900&quality=85" alt="5S 3">
+            <img src="https://i0.wp.com/blog.traveladvisorsguild.com/wp-content/uploads/2021/02/shutterstock_1015016965_.jpg?fit=5486%2C3645&ssl=1" alt="5S 4">
+        </section>
+
+        <div class="card">
+            <h2>Tabla Resumen de las 5S</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>5S</th>
+                        <th>Descripción</th>
+                        <th>Ejemplo</th>
+                        <th>Beneficios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Seiri</td>
+                        <td>Clasificación de elementos necesarios y innecesarios.</td>
+                        <td>Eliminar documentos obsoletos.</td>
+                        <td>Aumenta la eficiencia y reduce el desorden.</td>
+                    </tr>
+                    <tr>
+                        <td>Seiton</td>
+                        
+                  
+<td>Organización de los elementos necesarios.</td>
+                        <td>Etiquetar herramientas en un taller.</td>
+                        
+         
+<td>Minimiza el tiempo de búsqueda.</td>
+                    
+             
+</tr>
+                    <tr>
+                        
+                     
+<td>Seiso</td>
+                        <td>Mantener el espacio de trabajo limpio.</td>
+                        <td>Calendario de limpieza semanal.</td>
+                        
+                  
+<td>Mejora la moral y reduce accidentes.</td>
+                    
+                  
+</tr>
+                    <tr>
+                        <td>Seiketsu</td>
+                        <td>Estandarización de procesos y normas.</td>
+                        <td>Manual de procedimientos.</td>
+                        <td>Asegura prácticas uniformes y calidad.</td>
+                    </tr>
+                    <tr>
+                        <td>Shitsuke</td>
+                        
+               
+<td>Sostenimiento de las prácticas de 5S.</td>
+                        
+          
+<td>Auditorías regulares.</td>
+                        
+                
+<td>Promueve disciplina y mejora continua.</td>
+                    
+    
+</tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <footer>
+            
+    
+<p>&copy; 2024 Las 5S Japonesas - Todo sobre la metodología 5S</p>
+        </footer>
+
+    </div>
+</body>
+</html>
